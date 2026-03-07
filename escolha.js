@@ -1,11 +1,11 @@
-let funcao = parseInt(prompt("Qual função você deseja fazer?\n1 - Ver o consumo mensal\n2 - Calcular a miliunidade"));
+let funcao = parseInt(prompt("Qual função você deseja fazer?\n1 - Ver o consumo mensal\n2 - Converter"));
 
-switch(funcao){
+switch (funcao) {
     case 1:
         ConsumoMensal();
         break;
     case 2:
-        miliUnidade();
+        conversao();
         break;
     default:
         console.log("Opção inválida!");
