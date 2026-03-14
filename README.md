@@ -1,91 +1,47 @@
-# calculadora-eletrica
-Este projeto é um **script em JavaScript** que calcula o **consumo mensal de energia elétrica de um eletrodoméstico** e estima o **valor mensal da conta**, com base no tempo de uso diário.
-# 🔌 Calculadora de Consumo de Energia
+# ⚡ Calculadora Elétrica
 
+Uma aplicação web simples para realizar **cálculos elétricos**.
 
-O usuário informa:
-- Nome do aparelho
-- Unidade de potência (**Watt ou Quilowatt**)
-- Potência do aparelho
-- Tempo de uso diário
+## 📌 Sobre o Projeto
 
-O programa então calcula:
-- **Consumo mensal em kWh**
-- **Custo mensal estimado em reais**
+A **Calculadora Elétrica** permite realizar três tipos principais de cálculos:
 
-O cálculo considera **30 dias de uso** e um **valor de R$0,90 por kWh**.
+- Calcular o **consumo mensal de energia elétrica** de um aparelho
+- **Converter grandezas elétricas** entre múltiplos e submúltiplos (de **giga até nano**)
+- Calcular a **resistência de resistores** com **4 ou 5 faixas de cores**
 
----
+## 🚀 Funcionalidades
 
-## ⚙️ Tecnologias utilizadas
+### 🔌 Cálculo de Consumo Mensal
+Calcula o consumo de energia de um aparelho em **kWh por mês**, considerando:
+- Potência do aparelho (W)
+- Horas de uso por dia
+- Dias de uso no mês
+- Valor de **R$0,90 por kWh**, (é apenas uma **estimativa** e pode variar dependendo da região e da concessionária de energia).
 
+### 🔄 Conversor de Grandezas Elétricas
+Permite converter valores entre diferentes escalas do Sistema Internacional.
+
+### 🎨 Calculadora de Resistores
+Calcula o valor da resistência com base nas **cores das faixas do resistor**:
+
+- Resistores de **4 faixas**
+- Resistores de **5 faixas**
+
+## 🛠️ Tecnologias Utilizadas
+
+- **HTML**
 - **JavaScript**
-- Entrada de dados com `prompt`
-- Saída de dados com `console.log`
+
+## 🎯 Objetivo do Projeto
+
+Este projeto foi criado para:
+
+* Praticar **lógica de programação**
+* Aplicar conceitos de **JavaScript**
+* Desenvolver uma ferramenta simples para **cálculos elétricos**
+* Servir como **projeto de estudo e portfólio**
 
 ---
 
-## 📋 Como funciona
-
-1. O usuário informa o nome do aparelho.  
-2. Escolhe a unidade de potência:
-   - `1` → Watt  
-   - `2` → Quilowatt  
-3. Informa:
-   - Potência do aparelho
-   - Tempo de uso diário (em horas)
-4. O programa calcula:
-   - Consumo mensal em **kWh**
-   - Valor mensal aproximado da energia.
-
----
-
-## 🧮 Fórmula utilizada
-
-### Quando a potência está em **Watt**
-
-\[
-kWh = \frac{Potência(W) \times Horas}{1000} \times 30
-\]
-
-### Quando a potência está em **Quilowatt**
-
-\[
-kWh = Potência(kW) \times Horas \times 30
-\]
-
-### Cálculo do custo
-
-\[
-Valor = kWh \times 0.9
-\]
-
----
-
-## ▶️ Exemplo de uso
-
-Insira o seu aparelho: Geladeira  
-
-Escolha a medida da potência do seu aparelho:  
-1 - Watt  
-2 - Quilowatt  
-
-1  
-
-Insira a potência em Watt do seu aparelho: 150  
-
-Insira o tempo de uso diário do seu aparelho: 24  
-
----
-
-## 💻 Saída no console
-
-Eletrodoméstico: Geladeira  
-kWh por mês: 108.00  
-Valor mensal: 97.20 reais  
-
----
-
-## 📌 Observação
-
-O valor de **R$0,90 por kWh** é apenas uma **estimativa** e pode variar dependendo da região e da concessionária de energia.
+Desenvolvido por **Kauê Kreuz de Miranda**
