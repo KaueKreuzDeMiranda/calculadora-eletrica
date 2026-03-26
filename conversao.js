@@ -1,7 +1,7 @@
 function conversao(){
     const unidadeBase = prompt("Insira a grandeza de base: ");
-    const de = prompt("Insira o prefixo de partida: ").toLowerCase();
-    const para = prompt("Insira o prefixo de resultado: ").toLowerCase();
+    const de = prompt("Insira o prefixo de partida: \ngiga\nmega\nquilo\nhecto\ndeca\nbase\ndeci\ncenti\nmili\nmicro\nnano").toLowerCase();
+    const para = prompt("Insira o prefixo de resultado: \ngiga\nmega\nquilo\nhecto\ndeca\nbase\ndeci\ncenti\nmili\nmicro\nnano").toLowerCase();
     const valor = parseFloat(prompt(`Digite o valor de ${unidadeBase} que deseja converter:`));
 
     const prefixos = {

@@ -4,10 +4,10 @@ function resistores(){
 
     switch(qntFaixas){
         case 1:
-            faixa1 = prompt("Qual é a cor da primeira faixa? ").toLowerCase();
-            faixa2 = prompt("Qual é a cor da segunda faixa? ").toLowerCase();
-            faixaMulti = prompt("Qual é a cor da faixa do multiplicador? ").toLowerCase();
-            faixaTolerancia = prompt("Qual é a cor da faixa de tolerância? ").toLowerCase();
+            faixa1 = prompt("Qual é a cor da primeira faixa? \nPreto: 0\nMarrom: 1\nVermelho: 2\nLaranja: 3\nAmarelo: 4\nVerde: 5\nAzul: 6\nVioleta: 7\nCinza: 8\nBranco: 9").toLowerCase();
+            faixa2 = prompt("Qual é a cor da segunda faixa? \nPreto: 0\nMarrom: 1\nVermelho: 2\nLaranja: 3\nAmarelo: 4\nVerde: 5\nAzul: 6\nVioleta: 7\nCinza: 8\nBranco: 9").toLowerCase();
+            faixaMulti = prompt("Qual é a cor da faixa do multiplicador? \nPrata: * 0,01\nOuro: * 0,1\nPreto: * 1\nMarrom: * 10\nVermelho: * 100\nLaranja: * 1.000\nAmarelo: * 10.000\nVerde: * 100.000\nAzul: * 1.000.000\nVioleta: * 10.000.000\nCinza: * 100.000.000\nBranco: * 1.000.000.000").toLowerCase();
+            faixaTolerancia = prompt("Qual é a cor da faixa de tolerância? \nPrata: * 0,01\nOuro: * 0,1\nMarrom: * 10\nVermelho: * 100\nBranco: * 1.000.000.000").toLowerCase();
 
             if(faixa1 == "preto"){
                 faixa1 = 0;
@@ -102,11 +102,11 @@ function resistores(){
             console.log("A resistência do seu resistor é de:" , resistencia , "ohms\nE a tolerância é de:" , faixaTolerancia + "%");
             break;
         case 2:
-            faixa1 = prompt("Qual é a cor da primeira faixa? ").toLowerCase();
-            faixa2 = prompt("Qual é a cor da segunda faixa? ").toLowerCase();
-            faixa3 = prompt("Qual é a cor da terceira faixa? ").toLowerCase();
-            faixaMulti = prompt("Qual é a cor da faixa do multiplicador? ").toLowerCase();
-            faixaTolerancia = prompt("Qual é a cor da faixa de tolerância? ").toLowerCase();
+            faixa1 = prompt("Qual é a cor da primeira faixa? \nPreto: 0\nMarrom: 1\nVermelho: 2\nLaranja: 3\nAmarelo: 4\nVerde: 5\nAzul: 6\nVioleta: 7\nCinza: 8\nBranco: 9").toLowerCase();
+            faixa2 = prompt("Qual é a cor da segunda faixa? \nPreto: 0\nMarrom: 1\nVermelho: 2\nLaranja: 3\nAmarelo: 4\nVerde: 5\nAzul: 6\nVioleta: 7\nCinza: 8\nBranco: 9").toLowerCase();
+            faixa3 = prompt("Qual é a cor da terceira faixa? \nPreto: 0\nMarrom: 1\nVermelho: 2\nLaranja: 3\nAmarelo: 4\nVerde: 5\nAzul: 6\nVioleta: 7\nCinza: 8\nBranco: 9").toLowerCase();
+            faixaMulti = prompt("Qual é a cor da faixa do multiplicador? \nPrata: * 0,01\nOuro: * 0,1\nPreto: * 1\nMarrom: * 10\nVermelho: * 100\nLaranja: * 1.000\nAmarelo: * 10.000\nVerde: * 100.000\nAzul: * 1.000.000\nVioleta: * 10.000.000\nCinza: * 100.000.000\nBranco: * 1.000.000.000").toLowerCase();
+            faixaTolerancia = prompt("Qual é a cor da faixa de tolerância? \nPrata: * 0,01\nOuro: * 0,1\nMarrom: * 10\nVermelho: * 100\nBranco: * 1.000.000.000").toLowerCase();
 
             if(faixa1 == "preto"){
                 faixa1 = 0;
